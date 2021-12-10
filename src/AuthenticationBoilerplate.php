@@ -101,5 +101,4 @@ class AuthenticationBoilerplate implements AuthenticationPlugin, JS
     {
         return true;
     }
-
 }
