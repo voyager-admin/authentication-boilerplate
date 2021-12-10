@@ -1,0 +1,28 @@
+{
+    "name": "voyager-admin/authentication-boilerplate",
+    "description": "Authentication boilerplate for Voyager II",
+    "keywords": ["voyager2-plugin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Schweppe",
+            "email": "info@cschweppe.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VoyagerAdmin\\AuthenticationBoilerplate\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VoyagerAdmin\\AuthenticationBoilerplate\\AuthenticationBoilerplateServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "voyager-admin/voyager": "2.x-dev"
+    }
+}
